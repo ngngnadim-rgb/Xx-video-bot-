@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telegram Media Gallery</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>📸 Media Gallery</h1>
+    <div class="sub">@{{ channel.lstrip('@') }}</div>
+  </header>
+
+  <main>
+    <div id="status">Loading...</div>
+    <section id="gallery"></section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
